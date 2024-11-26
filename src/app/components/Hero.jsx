@@ -16,21 +16,22 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-7 place-self-center text-center sm:text-left">
+          className="col-span-7 place-self-center text-center sm:text-left"
+        >
           <h1 className="text-white tex-4xl lg:text-6xl font-extrabold mb-4 sm:text-5xl ">
             <span>Hello, I&apos;m </span>
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-secondry-400 to-primary-500">
-              Niranjan Raju
+              Chetan Kumar
             </span>{" "}
             <br />
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Front End Developer",
+                "DevOps Engineer",
                 5000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Web Developer",
+                "Full Stack Developer",
                 5000,
-                "UI/UX Designer",
+                "Web Developer",
                 5000,
               ]}
               wrapper="span"
@@ -52,12 +53,14 @@ const Hero = () => {
 
             <Link
               className="p-2 border border-white rounded-full hover:bg-sky-800"
-              href="https://www.linkedin.com/in/raju-niranjan/">
+              href="https://www.linkedin.com/in/atthulurichetan/"
+            >
               <LinkedInIcon className="text-4xl" />
             </Link>
             <Link
               className="p-2 border border-white rounded-full hover:text-black hover:bg-white"
-              href="https://github.com/RajuNiranjan">
+              href="https://github.com/chetanchey"
+            >
               <GitHubIcon className="text-4xl" />
             </Link>
           </div>
@@ -66,10 +69,11 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-5 place-self-center mt-4 lg:mt-0">
+          className="col-span-5 place-self-center mt-4 lg:mt-0"
+        >
           <div className="rounded-full h-[350px] w-[350px] relative overflow-hidden object-fill">
             <Image
-              src="/img/user.jpg"
+              src="/img/chey.png"
               alt=""
               width={400}
               height={400}

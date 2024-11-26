@@ -14,7 +14,7 @@ const Footer = () => {
         autoPlay="autoplay"
       />
       <h3 className="text-[#777] text-[10px]">
-        Copyright &copy; {year} Niranjan Raju.All Rights Reserved.
+        Copyright &copy; {year} Chetan Kumar.All Rights Reserved.
       </h3>
     </footer>
   );

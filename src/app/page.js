@@ -3,7 +3,6 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import ProjectSection from "./components/ProjectSection";
-import Skills from "./components/Skills";
 import About from "./components/about";
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
         <Hero />
         <About />
         <ProjectSection />
-        {/* <Skills /> */}
         <ContactMe />
         <Footer />
       </div>

@@ -27,12 +27,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>
-          B.Tech - KKR & KSR Institute of Technology and Sciences (EEE), Guntur,
-          A.P
-        </li>
-        <li>Intermediate - Sri Gayatri Junior College, Guntur, A.P</li>
-        <li>Class X - Naveena High School, Guntur, A.P</li>
+        <li>B.Tech -</li>
+        <li>Intermediate -</li>
+        <li>Class X - </li>
       </ul>
     ),
   },
@@ -59,13 +56,14 @@ const About = () => {
         className="text-white"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.9 }}>
+        transition={{ duration: 0.9 }}
+      >
         <div className="md:grid md:grid-cols-2 gap-8 items-center px-4 xl:gap-16 sm:py-16 xl:px-16">
           <Image src="/img/lap.jpeg" alt="" width={500} height={500} />
           <div>
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-base lg:text-lg text-[#fff]">
-              Hello! I&apos;m Niranjan Raju, a passionate Front-End
+              Hello! I&apos;m Chetan Kumar, a passionate Front-End
               developer.From my early age I was so much passionate on web. I
               develop web applications, I also have experience working with
               Reactjs and Next js. Able to do any web and programming related
@@ -75,19 +73,22 @@ const About = () => {
             <div className="flex flex-row justify-start mt-8 gap-5">
               <TabButton
                 selectTab={() => handleTabChange("skills")}
-                active={tab === "skills"}>
+                active={tab === "skills"}
+              >
                 {" "}
                 Skills{" "}
               </TabButton>
               <TabButton
                 selectTab={() => handleTabChange("education")}
-                active={tab === "education"}>
+                active={tab === "education"}
+              >
                 {" "}
                 Education{" "}
               </TabButton>
               <TabButton
                 selectTab={() => handleTabChange("certifications")}
-                active={tab === "certifications"}>
+                active={tab === "certifications"}
+              >
                 {" "}
                 Experience{" "}
               </TabButton>
