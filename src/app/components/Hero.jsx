@@ -27,11 +27,11 @@ const Hero = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "DevOps Engineer",
-                5000, // wait 1s before replacing "Mice" with "Hamsters"
+                "Web Developer",
+                5000,
                 "Full Stack Developer",
                 5000,
-                "Web Developer",
+                "DevOps Engineer",
                 5000,
               ]}
               wrapper="span"
@@ -59,7 +59,7 @@ const Hero = () => {
             </Link>
             <Link
               className="p-2 border border-white rounded-full hover:text-black hover:bg-white"
-              href="https://github.com/chetanchey"
+              href="https://github.com/atthulurichetan"
             >
               <GitHubIcon className="text-4xl" />
             </Link>

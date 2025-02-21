@@ -52,7 +52,7 @@ const ContactMe = () => {
           </Link>
           <Link
             className="p-5 border border-white rounded-full hover:text-black hover:bg-white"
-            href="https://github.com/chetanchey"
+            href="https://github.com/atthulurichetan"
             target="_blank"
           >
             <GitHubIcon className="text-4xl" />

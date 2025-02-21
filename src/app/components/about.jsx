@@ -16,9 +16,12 @@ const TAB_DATA = [
         <li>HTML</li>
         <li>CSS</li>
         <li>Java Script</li>
+        <li>Typescript</li>
         <li>React JS</li>
         <li>Tailwind Css</li>
         <li>Next JS</li>
+        <li>MOngodb</li>
+        <li>PostgreSQL</li>
       </ul>
     ),
   },
@@ -27,7 +30,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>B.Tech -</li>
+        <li>B.Tech (CSE) -</li>
         <li>Intermediate -</li>
         <li>Class X - </li>
       </ul>

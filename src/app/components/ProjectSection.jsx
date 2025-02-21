@@ -8,13 +8,13 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Ecommerce Website",
-    description:
-      "Dynamic React e-commerce site with Tailwind CSS finesse, ensuring responsive design for seamless shopping experiences.",
-    image: "/img/projects/ecommerse.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ankit-Mohanta/login-page-thumbstack",
-    previewUrl: "https://login-page-thumbstack.vercel.app/",
+    // title: "Ecommerce Website",
+    // description:
+    //   "Dynamic React e-commerce site with Tailwind CSS finesse, ensuring responsive design for seamless shopping experiences.",
+    // image: "/img/projects/ecommerse.png",
+    // tag: ["All", "Web"],
+    // gitUrl: "https://github.com/Ankit-Mohanta/login-page-thumbstack",
+    // previewUrl: "https://login-page-thumbstack.vercel.app/",
   },
 ];
 
@@ -27,8 +27,8 @@ const ProjectSection = () => {
     setTag(newTag);
   };
 
-  const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+  const filteredProjects = projectsData.filter(
+    (project) => project.tag && project.tag.includes(tag)
   );
 
   const cardVarient = {
